@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin:1px;
+}
+.navBar{
+    color: black;
+    background-color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.navBar ul{
+    margin: 0px;
+    overflow: auto;
+}
+
+.navBar li{
+    list-style: none;
+}
+
+.navBar ul li a{
+    margin: 10px;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+
+.navBar li a:hover{
+    color: #fc2e71;
+}
+
+.left{
+    float: left;
+    font-size: 25px;
+    margin-right: 175px;
+}
+
+.right{
+    float: right;
+}
+
+.right li{
+    margin: 8px;
+    padding: 6px;
+    float: right;
+}
+
+.banner {
+    width: 100%;
+}
+
+.container{
+    overflow: auto;
+    background-color: rgb(71, 70, 70);
+    margin: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 75%;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#ends{
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 7px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+}
+
+#upto{
+    display: inline;
+    color: white;
+}
+
+.time{
+    color: black;
+    background-color: rgb(199, 199, 199);
+    margin: auto;
+    height: 50px;
+    width: 75%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#timer{
+    /* float:left; */
+    display:inline-block;
+    margin: auto;
+    padding: 12.5px;
+}
+
+#freeTrials{
+    color:black;
+    background-color: white;
+    text-align: left;
+    margin-top: 75px;
+
+}
+
+
+
+
+
