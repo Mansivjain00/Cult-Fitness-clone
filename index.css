@@ -103,12 +103,272 @@ body{
 }
 
 #freeTrials{
+    height: 60px;
     color:black;
     background-color: white;
     text-align: left;
     margin-top: 75px;
+    font-weight: bold;
+}
+
+#subhead{
+    color:grey;
+    background-color: white;
+    text-align: left;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: small;
+    height: 20px;
+}
+
+.tickets{
+    background-color: white;
+}
+
+.ticketsA{
+    height: 100px;
+    margin-right: 20px;
+    color:white;
+    background-color: rgb(71, 70, 70);
+    float: left;
+    width: 30%;
+}
+
+.ticketsA p{
+    font-size: x-large;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    border: 1px solid #fc2e71;
+    border-radius: 30px;
+    color: white;
+    background-color: #fc2e71 ;
+    width: 85%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#WhySafe{
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 40px;
+    text-align: left;
+    height:30px;
+    color: black;
+    background-color: white;
+}
+
+#video{
+    margin-top: 20px;
+}
+
+.Enjoy{
+    overflow: auto;
+    color: white;
+    background-color: #586284;
+    height: 450px;
+    margin-top:50px;
+    width: 100%;
+}
+
+#cB{
+    font-size: small;
+    color: rgb(136, 142, 158);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.benefits{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.navBar2{
+    overflow: auto;
+    color: white;
+    margin: auto;
+}
+
+.navBar2 ul li{
+    font-size: medium;
+    margin: 10px;
+    padding: 2px 6px;
+    float:left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navBar2 ul{
+    margin-top: 0px;
+}
+
+#first{
+    margin-left: 175px;
+}
+
+#choose{
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 32px;
+    padding: 13px;
+}
+
+.packs,.Only{
+    height: 80px;
+    border-radius: 15px;
+    overflow: auto;
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    float: left;
+    width: 30%;
+    margin-bottom: 0px;
+}
+
+.months{
+    margin-top: 1px;
+    margin-left: 5px;
+    float: left;
+}
+
+.buy{
+    color: #fc2e71;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 220px;
+    float:left;
+}
+
+.amount{
+    margin-bottom: 1px;
+    margin-top: -14px;
+    margin-left: 5px;
+    float:  left;
+}
+
+.Only{
+    border-top: 2px dashed black;
+    margin-top: 0px;
+    padding-top: 27px;
+    text-align: center;
+}
+
+.firstPack{
+    margin-left: 37px;
+}
+
+.workoutHead{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.workoutSection{
+    overflow: auto;
+    font-weight: bold;
+}
+
+.workouts{
+    display: inline-block;
+    height: 250px;
+    width: 18.5%;
+    margin: 5px;
+}
+
+.workouts p{
+    float: left;
+    height: 200px;
+}
+
+#yoga{
+    margin-left: 19px;
+    background-image: url(yoga.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
 
 }
+
+#boxing{
+    background-image: url(boxing.jpg);
+    background-size: 260px ;
+    background-repeat: no-repeat;
+}
+
+#strength{
+    background-image: url(strength.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+}
+
+#hrx{
+    background-image: url(hrx.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+}
+
+#dance{
+    background-image: url(dance.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+}
+
+#motivation{
+    margin-top: 0px;
+    height: 250px;
+    text-align: left;
+    background-color: white;
+}
+
+.be{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.fearless{
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.an{
+    font-size: 40px;
+    font-weight: bold;
+    color: #8d93a0;
+}
+
+.navBar3{
+    margin-top: 70px;
+    overflow: auto;
+    background-color: black;
+    width: 100%;
+
+}
+
+.navBar3 li{
+    float: left;
+    margin: 2.5px 35px;
+    padding: 2.5px 35px;
+}
+
+.navBar3 li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navBar3 li a:hover{
+    color: grey;
+}
+
+
 
 
 
